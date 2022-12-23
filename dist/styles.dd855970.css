@@ -1,0 +1,75 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://media.discordapp.net/attachments/1055424692057538561/1055768539077824543/E6yR7GLVkAUxia7.jpeg?width=1410&height=793);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Luckiest Guy", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  padding: 10px;
+  margin: 5px;
+}
+
+main {
+  width: 350px;
+  height: 500px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://media.discordapp.net/attachments/1055424692057538561/1055748962155507752/kakao-face_pattern_wrapping_paper_RN_rep.png);
+  border-radius: 20px;
+  box-shadow: 0px 8px 6px -6px black;
+}
+
+header {
+  border: 1px solid white;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid white;
+  box-shadow: 2px 2px 1px 1px gray inset;
+  border-radius: 9px;
+  width: 318px;
+  height: 50px;
+  font-size: 35px;
+}
+
+.area {
+  border: 2px solid white;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+button {
+  flex-basis: 69px;
+  font-weight: bold;
+  font-size: large;
+  box-shadow: 1px 1px 1px 1px gray;
+  border: white;
+}
+
+.option,
+.operator {
+  background-color: orange;
+  border-radius: 25px;
+}
+
+.number {
+  background-color: ivory;
+  border-radius: 25px;
+}
+
+
+/*# sourceMappingURL=/styles.dd855970.css.map */
