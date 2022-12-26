@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+} 
+
+body {
+    background-image: url(https://i.pinimg.com/originals/be/5c/be/be5cbedd366007fcf60fd11fd0fdb314.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main { 
+    margin-top: 100px;
+    height: 700px;
+    width: 400px;
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    background: url(https://blog.kakaocdn.net/dn/bIpTmK/btqK16VI0vo/xkiefeHElp4CQXJ58fxpZK/img.png);
+}
+
+.resultimage {
+    background-image: url(https://image.edaily.co.kr/images/Photo/files/NP/S/2016/01/PS16012300092b.jpg);
+    margin: 0px 25px;
+    margin-top: 10px;
+}
+
+
+
+.result {
+    
+    
+    flex-grow: 1;
+    
+    color: gold;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+       
+}
+
+
+#value {
+    text-align: right;
+   
+    margin-right: 40px;
+}
+
+
+
+
+.calculate {
+    
+    flex-grow: 8;
+    
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+button {
+    background-image : url(https://blog.kakaocdn.net/dn/bIpTmK/btqK16VI0vo/xkiefeHElp4CQXJ58fxpZK/img.png);
+    margin:5px;
+    width: 80px;
+    height: 60px;
+    font-weight: bold;
+    font-size: x-large;
+    color:gold;
+    border-color: gold;
+    box-shadow: -1px -1px 5px rgba(255, 255, 255, 0.712),
+    6px 6px 10px rgba(0, 0, 0, .15);
+    
+    
+}
+button:hover {
+    box-shadow: 2px 2px 6px rgba(255, 255, 255, .6),
+    2px 2px 4px rgba(0, 0, 0, .1);
+}
+button:active {
+    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, .7),
+                inset 2px 2px 4px rgba(0, 0, 0, .15);
+}
+
+.row1,.row2,.row3,.row4,.row5{
+    
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+
+
+
+#number0 {
+    
+    width: 170px;
+    
+    
+}
+
+
+
+
